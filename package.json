@@ -1,0 +1,19 @@
+{
+  "name": "aerolink",
+  "version": "1.0.0",
+  "description": "A project on airline booking",
+  "main": "index.js",
+  "scripts": {
+    "dev":"npx nodemon src/index.js"
+  },
+  "author": "neetesh",
+  "license": "ISC",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.48.3",
+    "dotenv": "^17.2.1",
+    "env": "^0.0.2",
+    "express": "^5.1.0",
+    "http-status-codes": "^2.3.0",
+    "nodemon": "^3.1.10"
+  }
+}
